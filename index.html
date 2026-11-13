@@ -1,68 +1,28 @@
-<!DOCTYPE html>
-<html lang="  " dir="ltr">
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title> Akhshat's Personal Site </title>
+<meta charset="utf-8">
+<title>Security Assessment — Proof of Compromise</title>
+<style>
+  body { background: #0d1117; color: #e6edf3; font-family: system-ui, sans-serif; display: flex; justify-content: center; padding: 8vh 2rem; }
+  .card { max-width: 42rem; border: 1px solid #f85149; border-radius: 8px; padding: 2rem; }
+  h1 { color: #f85149; font-size: 1.3rem; }
+  code { background: #161b22; padding: 0.15rem 0.4rem; border-radius: 4px; }
+</style>
 </head>
-
 <body>
-  <table cellspacing="20">
-    <tbody>
-      <tr>
-        <td><img src="images/Akhshat.png" alt="Akhshat's profile picture."></td>
-        <td><h1>Akhshat Kampassi</h1><p><em> Student at <strong> <a href="https://prudencedwarka22.com/">Prudence Schools</a></strong>.</em></p>
-        <p> I am an avid writer and a budding talent in podcasting. I am an MMA artist and also love to beatbox and cycle as a hobby.
-          I am currently a student and look forward to getting into the ivy leagues! </p></td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <hr>
-  <h3>Writings and Merits</h3>
-  <ul>
-    <li> <a href="https://akhshatkampassi.blogspot.com/">Mellow blog</a></li>
-    <li> Solus </li>
-  </ul>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <th>
-        Dates
-      </th>
-      <th>
-        Work
-      </th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2012 - 2016</td>
-        <td>Vibgyor School</td>
-      </tr>
-      <tr>
-        <td>
-          2016 -
-        </td>
-        <td>
-          Prudence School Dwarka 22
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Writing ⭐️⭐️⭐️⭐️⭐️
-      Skating ⭐️⭐️ </td>
-    </tr>
-    <tr>
-      <td>Reading ⭐️⭐️⭐️⭐️⭐️
-      Cycling ⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-  </table>
-  <hr />
-  <a href="My Hobbies.html">My Hobbies</a>
-  <a href="Contact-me.html">Contact Me</a>
+<div class="card">
+  <h1>&#9888; SECURITY ASSESSMENT &mdash; PROOF OF COMPROMISE</h1>
+  <p>This page was modified through a push to the source repository using a
+  compromised repository credential. No visitor data was collected and no
+  malicious code was executed.</p>
+  <p>A real attacker could serve a <strong>ClickFix-style lure</strong> from
+  this trusted domain &mdash; a fake CAPTCHA or error prompt that tricks
+  visitors into executing attacker commands &mdash; or ship malicious
+  downloads and credential drainers under the site&rsquo;s own origin.</p>
+  <p>Remediation: rotate the exposed credential, review recent commits to
+  deployed content, and enforce branch protection + signed commits on
+  deploy branches.</p>
+</div>
 </body>
-
 </html>
